@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace PrintFace
 {
@@ -20,7 +20,7 @@ namespace PrintFace
         {
             throw new NotImplementedException();
         }
-        
+
         /// <summary>
         /// Print this face.
         ///   +"""""+

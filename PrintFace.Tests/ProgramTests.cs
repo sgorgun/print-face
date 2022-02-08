@@ -6,20 +6,20 @@ namespace PrintFace.Tests
     public class ProgramTests
     {
         private StringWriter writer;
-        
+
         [SetUp]
         public void SetUp()
         {
             this.writer = new StringWriter();
             Console.SetOut(this.writer);
         }
-        
+
         [TearDown]
         public void Cleanup()
         {
             this.writer.Close();
         }
-        
+
         [Test]
         public void Main_Tests()
         {
@@ -45,7 +45,7 @@ namespace PrintFace.Tests
 
             Assert.AreEqual(expected, actual);
         }
-        
+
         [Test]
         public void PrintFace_Tests()
         {
